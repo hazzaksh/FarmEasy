@@ -24,4 +24,4 @@ EXPOSE 3000
 
 
 
-ENTRYPOINT ["/docker-gs-ping"]
+CMD ["/docker-gs-ping", "start"]
